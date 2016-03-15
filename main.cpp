@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
- QApplication   app(argc, argv);
+ QCoreApplication app(argc, argv);
  //!Verarbeitet die Eingaben
  QCommandLineParser cmdParser;
  //!Die Eingaben vom User
