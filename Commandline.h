@@ -1,4 +1,5 @@
-#pragma once
+#ifndef COMMANDLINE_H
+#define COMMANDLINE_H
 #include <QtCore/qcommandlineparser.h>
 #include <QtWidgets/qapplication.h>
 
@@ -43,3 +44,4 @@ extern void createInputCommands(QCommandLineParser &cmdParser);
 extern void fillInputCommands(const QCommandLineParser &cmdParser, InputCommands &inputCommands);
 //!Prüft die Eingaben auf Korrektheit
 extern bool checkInputCommands(const InputCommands &inputCommands);
+#endif // COMMANDLINE_H

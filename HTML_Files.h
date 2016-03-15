@@ -1,4 +1,5 @@
-#pragma once
+#ifndef HTML_FILES_H
+#define HTML_FILES_H
 #include <QtCore/qfile.h>
 #include <QtCore/qtextstream.h>
 
@@ -61,3 +62,4 @@ void handleInlineJS(QTextStream &stream, bool useHighChart, bool useInlineJS)
               "       <script type = \"text/javascript\" src = \"" << pathChart  << "\"></script>\n";
 
 }
+#endif // HTML_FILES_H

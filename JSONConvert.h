@@ -1,4 +1,5 @@
-#pragma once
+#ifndef JSONCONVERT_H
+#define JSONCONVERT_H
 #include "Commandline.h"
 #include <vector>
 
@@ -23,3 +24,4 @@ struct Benchmark_Values
 
 //!Verarbeitet die übergebenen Befehle
 extern void processJSON(const InputCommands&);
+#endif

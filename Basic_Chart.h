@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BASIC_CHART_H
+#define BASIC_CHART_H
+
 #include "HTML_Files.h"
 #include "HTMLOutput.h"
 #include <QtCore/qtextstream.h>
@@ -164,3 +166,4 @@ void writeHtmlEnd(QTextStream &stream, const QString&, const vector<Benchmark_Va
 
 htmlFunctions basicChartfunctions = {writeHtmlBegin, writeHtmlMiddle, writeHtmlEnd};
 int           basicChartSize = 3;
+#endif // BASIC_CHART_H
